@@ -1,0 +1,318 @@
+body{
+	background-image: url(https://cdna.artstation.com/p/assets/images/images/024/507/476/large/leaf-art-subg2.jpg?1582651786);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+#SUicon{
+	width: 25%;
+}
+
+#menu{
+	color: black;
+	padding: 10px;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(0, 0, 0, 0.1);
+}
+
+.titulo{
+	text-align: center;
+	font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.link{
+	text-decoration: none;
+	color: black;
+	font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+  transition: 0.3s;
+}
+
+.linkYoutube{
+	text-decoration: none;
+	color: red;
+	font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.linkYoutube:hover{
+	text-decoration: underline;
+}
+
+.linkYoutube:active{
+	color: orangered;;
+}
+
+.linkSpotify{
+	text-decoration: none;
+	color: green;
+	font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.linkSpotify:hover{
+	text-decoration: underline;
+}
+
+.linkSpotify:active{
+	color: lightgreen;
+}
+
+.link:hover{
+	color: hotpink;
+	font-size: 18px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.link:active{
+	color: purple;
+}
+
+#ancora{
+  text-decoration: none;
+  color: black;
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(138, 43, 226, 0.75);
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  padding: 2px;
+  position: fixed;
+  bottom: 1%;
+  right: 0.5%;
+}
+
+#ancorasobre{
+  text-decoration: none;	
+  color: black;
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(138, 43, 226, 0.75);
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  padding: 2px;
+  position: fixed;
+  bottom: 1%;
+  right: 48.5%;
+}
+
+.CaixaTexto{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 45%;
+	background-color: pink;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	text-align: justify;
+	padding: 5px;
+}
+
+.centro{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.centrovideo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#video{
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: darkgrey;
+	scale: 0.8;
+}
+
+.Texto{
+	color: purple;
+	width: 100%;
+	font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#sobre{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#forms{
+	margin-top: 50px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#botao{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+#linha{
+	color: black;
+}
+
+#form3{
+	align-items: center;
+}
+
+.formulario{
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(0, 0, 0, 0.5);
+	padding: 10px;
+	border-radius: 20px;
+
+	color: white;
+	box-align: center;
+}
+
+#dataNasc{
+	display: flex;
+	flex-direction: row;
+}
+
+table,th, td{
+	border: 2px solid purple;
+}
+
+table{
+	border-radius: 5px;
+}
+
+#Enviar{
+	align-content: center;
+	border-radius: 10px;
+	border-color: purple;
+	font-weight: bold;
+	color: lightpink;
+	background-color: hotpink;
+}
+
+label{
+	color: violet;
+}
+
+input{
+	border-radius: 5px;
+	background-color: rgb(222, 10, 212, 0.4);
+	border-color: purple;
+}
+
+input:hover{
+	background-color: rgb(255, 0, 255, 0.4);
+}
+
+select{
+background-color: rgb(222, 9, 212, 0.3);
+}
+
+input::placeholder{
+	color: lightgrey;
+}
+
+input[type="radio"]{
+    -webkit-appearance: none;
+    background-color:lightgrey;
+    border-width: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+input[type="radio"]:checked{
+    background-color: hotpink;
+}
+
+input[type="range"]{
+	transform: scale(1.1);
+	display: grid;
+	appearance: none;
+	border-radius: 10px;
+	border-style: solid;
+	padding: 1px;
+}
+
+[type="range"]::-webkit-slider-thumb{
+appearance: none;
+background-color: hotpink;
+display: block;
+border-radius: 10px;
+ width: 10px;
+ height: 10px;
+}
+
+[type="range"]::-moz-range-thumb{
+ appearance: none;
+ background-color: hotpink;
+ display: block;
+border-radius: 10px;
+ width: 10px;
+ height: 10px;
+}
+
+ul{
+list-style-image:  url(../imagens/joiapeq.png);
+}
+
+@keyframes animacaio {
+	from {opacity: 0%; background-color: purple;}
+	to {opacity: 100%; background-color: pink;}
+	
+}
+
+@keyframes sobre {
+	from {opacity: 0%;}
+	to {opacity: 100%;}
+	
+}
+
+#caio{
+	animation-name: animacaio;
+	animation-duration: 0.8s;
+}
+
+
+
+#lucas{
+	animation-name: animacaio;
+	animation-duration: 0.8s;
+
+}
+
+#sobrenos{
+	animation-name: sobre;
+	animation-duration: 0.5s;
+}
